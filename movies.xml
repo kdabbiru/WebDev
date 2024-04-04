@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="movies.xsl"?>
+<catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="movies.xsd">
+    <movie id="mv101">
+        <director>Spielberg, Steven</director>
+        <title>Jaws</title>
+        <genre>Thriller</genre>
+        <release_date>1975-06-20</release_date>
+        <description>A story about a great white shark that terrorizes a small resort town.</description>
+    </movie>
+    <movie id="mv102">
+        <director>Lucas, George</director>
+        <title>Star Wars: Episode IV - A New Hope</title>
+        <genre>Sci-Fi</genre>
+        <release_date>1977-05-25</release_date>
+        <description>A young farm boy, Luke Skywalker, gets swept up in a rebellion against the tyrannical Galactic Empire.</description>
+    </movie>
+    <movie id="mv103">
+        <director>Coppola, Francis Ford</director>
+        <title>The Godfather</title>
+        <genre>Crime</genre>
+        <release_date>1972-03-24</release_date>
+        <description>The aging patriarch of an organized crime dynasty transfers control of his empire to his reluctant son.</description>
+    </movie>
+    <movie id="mv104">
+        <director>Kubrick, Stanley</director>
+        <title>2001: A Space Odyssey</title>
+        <genre>Sci-Fi</genre>
+        <release_date>1968-04-02</release_date>
+        <description>Humanity finds a mysterious object buried beneath the lunar surface and sets off to find its origins with the help of HAL 9000, the world's most advanced super computer.</description>
+    </movie>
+    <movie id="mv105">
+        <director>Hitchcock, Alfred</director>
+        <title>Psycho</title>
+        <genre>Horror</genre>
+        <release_date>1960-09-08</release_date>
+        <description>A Phoenix secretary embezzles $40,000 from her employer's client, goes on the run, and checks into a remote motel run by a young man under the domination of his mother.</description>
+    </movie>
+</catalog>
