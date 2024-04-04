@@ -5,7 +5,7 @@
   <body>
     <h2>Movie Catalog</h2>
     <table border="1">
-      <tr bgcolor="#9acd32">
+      <tr bgcolor="#808080">
         <th>Title</th>
         <th>Director</th>
       </tr>
