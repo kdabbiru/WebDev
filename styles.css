@@ -1,0 +1,25 @@
+/* styles.css */
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Styles for paragraph elements */
+  p {
+    color: #333; /* Dark grey text color */
+    font-size: 16px; /* Default font size */
+  }
+  
+  /* Document-specific styles */
+  .document-style {
+    color: green; /* Green text color */
+    font-style: italic; /* Italic font style */
+  }
+  
+  /* External styles */
+  .external-style {
+    color: blue; /* Blue text color */
+    font-weight: bold; /* Bold font weight */
+  }
+  

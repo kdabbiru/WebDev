@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Timetable</title>
+<style>
+    .container {
+        display: flex;
+        justify-content: center;
+    }
+    table {
+        width: 80%;
+        border-collapse: collapse;
+        font-family: Arial, sans-serif;
+    }
+    th, td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: center;
+        background-color: white;
+        color: black;
+    }
+    th {
+        font-weight: bold;
+    }
+    .greyish {
+        background-color: #cccccc;
+    }
+</style>
+</head>
+<body>
+
+<h2 style="text-align: center;">Timetable</h2>
+
+<div class="container">
+    <table>
+      <tr>
+        <th style="font-weight: bold;">Time</th>
+        <th>Monday</th>
+        <th>Tuesday</th>
+        <th>Wednesday</th>
+        <th>Thursday</th>
+        <th>Friday</th>
+      </tr>
+      <tr>
+        <td>8:00 - 9:00</td>
+        <td class="greyish">CSN</td>
+        <td>CD</td>
+        <td class="greyish">WAD</td>
+        <td>SE</td>
+        <td class="greyish">CYBER</td>
+      </tr>
+      <tr>
+        <td>9:00 - 10:00</td>
+        <td class="greyish">CD</td>
+        <td>CSN</td>
+        <td class="greyish">SE</td>
+        <td>WAD</td>
+        <td class="greyish">CYBER</td>
+      </tr>
+      <tr>
+        <td>10:00 - 11:00</td>
+        <td class="greyish">WAD</td>
+        <td>SE</td>
+        <td class="greyish">CD</td>
+        <td>CSN</td>
+        <td class="greyish">CYBER</td>
+      </tr>
+      <tr>
+        <td>11:00 - 12:00</td>
+        <td class="greyish">SE</td>
+        <td>WAD</td>
+        <td class="greyish">CSN</td>
+        <td>CD</td>
+        <td class="greyish">CYBER</td>
+      </tr>
+    </table>
+</div>
+
+</body>
+</html>
