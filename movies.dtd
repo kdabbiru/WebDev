@@ -1,0 +1,8 @@
+<!ELEMENT catalog (movie+) >
+<!ELEMENT movie (director, title, genre, release_date, description) >
+<!ATTLIST movie id ID #REQUIRED>
+<!ELEMENT director (#PCDATA)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT genre (#PCDATA)>
+<!ELEMENT release_date (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
